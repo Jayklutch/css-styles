@@ -19,7 +19,15 @@ Phill's Learning To Code Blog.
 Not so long ago and in pretty close geographical posistion.
 (Think - 8/11/14 - Petone)
 
-Well what a week it's been! I think I should really have a sleep before I stray too far into this weekly blog summary, but how?  How? - Although the week started really heavy by having to learn powershell, I feel like I have worked hard enough to enjoy a bit of a coast, so here I am, one unfinished blog post down and 24hrs to get it chopped cleaned and done in a more professional manner. Prep is the key. Mise en place.
+
+Describe version control
+Explain how git tracks changes
+Evaluate the benefits of using GitHub to store code
+
+Intro
+Well what a week it's been! I probably need some sleep, but how is that possible with so many cool concepts running through my head? I really thought my brain would fall apart earlier in the week - but never fear - it turns out it was just doing a bit of a re-formatting exersize to get some room organised for all this amazingly neat and cool coding I'm being taught.
+
+
 
 Paragraph 2
 
