@@ -8,8 +8,8 @@ div {color: #7ff5ff;
 
 a { color: #407b7f; text-decoration: none; font-size: 18px}
 
-a:hover {color: #7ff5ff; text-decoration: underline;}
-a:visited {color: #040708;}
+a:hover {color: #203040; text-decoration: underline;}
+a:visited {color: #407b7f;}
 
 .header { height: 60px;
 	width: 200px;
