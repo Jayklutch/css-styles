@@ -6,9 +6,9 @@ body {background-color: #0e1b1c; color: #7ff5ff; font-family: Courier; font-weig
 div {color: #7ff5ff; 
 	}
 
-a { color: #7ff5ff; text-decoration: none; font-size: 18px}
+a { color: #407b7f; text-decoration: none; font-size: 18px}
 
-a:hover {color: #203040; text-decoration: underline;}
+a:hover {color: #407b7f; text-decoration: underline;}
 a:visited {color: #407b7f;}
 
 .header { height: 60px;
