@@ -12,8 +12,8 @@ a:visited {color: #7ff5ff; font-weight: bolder; text-decoration: line-through;}
 
 #indexpane {display: inline-block;
 			border: 5px solid #7ff5ff;
-			border-radius: 5px solid #7ff5ff;
-			height: 575px;
+			border-radius: 10% solid #7ff5ff;
+			height: 550px;
 			width: 20%;
 			float: left;
 			margin-left: 5px;
@@ -24,11 +24,11 @@ a:visited {color: #7ff5ff; font-weight: bolder; text-decoration: line-through;}
 			}
 
 #mainindexlink {display: inline-block;
-				text-align: left;
+				text-align: right;
 				margin-top: 10px;
 				float: right;
 				height: 30px;
-				width: 100px;
+				width: 10%;
 				padding-top: 15px;
 			}
 
@@ -44,11 +44,11 @@ a:visited {color: #7ff5ff; font-weight: bolder; text-decoration: line-through;}
 
 #Mugshotoftheauthor {	display: inline-block;
 						text-align: right;
-						margin-left: 800px;
+						float: right;
 						margin-top:  95px;
 						margin-bottom: 5px;
 						height: 150px;
-						width: 130px;
+						width: 10%;
 					}
 
 
