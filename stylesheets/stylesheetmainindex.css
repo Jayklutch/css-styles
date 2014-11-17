@@ -11,6 +11,7 @@ a:hover {color: #7ff5ff; text-decoration: underline;}
 a:visited {color: #73dde5;}
 
 .header{ 	display: block; 
+			position: static;
 			text-align: center; 
 			height: 45px;
 			width: 90%;
@@ -20,6 +21,7 @@ a:visited {color: #73dde5;}
 			}
 
 .mainimage{	display: inline-block;
+			position: relative;
 			padding: 5 15 5 15;
 			height:380px;
 			width: 80%;
