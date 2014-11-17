@@ -14,7 +14,7 @@ a:visited {color: #040708;}
 			border: 5px solid black;
 			border-radius: 5px solid #7ff5ff;
 			height: 575px;
-			width: 25%;
+			width: 20%;
 			float: left;
 			margin-left: 5px;
 			margin-top: 5px;
@@ -44,7 +44,7 @@ a:visited {color: #040708;}
 
 #Mugshotoftheauthor {	display: inline-block;
 						text-align: right;
-						margin-left: 940px;
+						margin-left: 800px;
 						margin-top:  95px;
 						margin-bottom: 5px;
 						height: 150px;

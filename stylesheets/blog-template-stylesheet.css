@@ -1,52 +1,46 @@
-html {background-color:#0e1b1c; color:#7ff5ff;}
+html {background-color: #0e1b1c; color: #7ff5ff;}
 
-body {margin: 0px 0px 0px 0px;
-		height: 605px;}
+body {margin: 0 0 0 0;
+		height: 605 ;}
 
-div {font-family: Courier; color: #7ff5ff}
+/*{border: 1px dashed; }*/
 
-a { color: #7ff5ff; text-decoration: none;}
+div { color: #7ff5ff; 
+	}
 
-a:hover {color: #73dde5; text-decoration: underline; }
+a { color: #407b7f; text-decoration: none; font-size: 18px}
+
+a:hover {color: #7ff5ff; text-decoration: underline;}
 a:visited {color: #040708;}
 
-#indexpane {display: inline-block;
-			border: 2px solid black;
-			height: 575px;
-			width: 222px;
-			float: left;
-			margin-left: 5px;
-			margin-top: 5px;
-			margin-bottom: 2px;
-			text-align: center;
-			padding-top: 15px;
-			}
+.header { height: 60px;
+	width: 95%;
+	border: 5px solid #7ff5ff;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
 
-#mainindexlink {display: inline-block;
-				text-align: left;
-				margin-top: 10px;
-				margin-left: 975px;
-				height: 30px;
-				width: 100px;
-				padding-top: 15px;
-			}
+.content {height: 600px;
+	width: 80%;
+	border: 2px solid #7ff5ff;
+	margin-left: auto;
+	margin-right: auto;
+	float: right;
+	text-align: left;
+}
 
-#welcome {	display: inline-block;
-			height: 200px;
-			width: 400px ;
-			margin-left: 252px;
-			margin-top: 100px;
-			text-align: center;
-			font-weight: bolder;
-			position: static;
-			}
+.sidebar {height: 600px;
+	width: 15%;
+	border: 2px solid #7ff5ff;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	text-align: center;
+}
 
-#Mugshotoftheauthor {	display: inline-block;
-						text-align: right;
-						margin-left: 940px;
-						margin-top:  95px;
-						margin-bottom: 5px;
-						height: 150px;
-						width: 130px;
-					}
+.bottom {
+	clear: both;
+	width: 99.5%;
+	border: 2px solid #7ff5ff;
 }
