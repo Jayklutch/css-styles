@@ -1,6 +1,11 @@
-/*{border: 1px dashed; ;}*/
+html {background-color: #0e1b1c; color: #7ff5ff;}
 
-div {color: #7ff5ff; 
+body {margin: 0 0 0 0;
+		height: 605 ;}
+
+/*{border: 1px dashed; }*/
+
+div { color: #7ff5ff; 
 	}
 
 a { color: #407b7f; text-decoration: none; font-size: 18px}
