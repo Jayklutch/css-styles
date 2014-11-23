@@ -21,10 +21,10 @@ a:visited {color: #73dde5;}
 			}
 
 .mainimage{	display: inline-block;
-			position: relative;
-			padding: 5 15 5 15;
+			position: static;
+			padding: 5px 15px 5px 15px;
 			height:380px;
-			width: 80%;
+			width: 100%;
 			margin-left: auto;
 			margin-right: auto;
 }
