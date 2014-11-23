@@ -5,6 +5,10 @@ body {margin: 0 0 0 0;
 
 div {font-family: Courier; color: #7ff5ff}
 
+a { color: #7ff5ff; text-decoration: none; font-size: 18px}
+
+a:hover {color: #7ff5ff; text-decoration: underline; font-style: italic;}
+a:visited {color: #7ff5ff; font-weight: bolder; text-decoration: line-through;}
 
 #indexpane {display: inline-block;
 			border: 5px solid #7ff5ff;
