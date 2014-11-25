@@ -1,0 +1,10 @@
+#Heading {text-align: center;
+        	border: 3px solid black;}
+#authors {text-align: right;}
+#Questions {border: 2px solid black;
+                    padding: 20px;
+                    margin-bottom: 20px;}
+.Content {border: 2px solid black;
+                padding: 20px;
+                margin-top: 20px;}
+              
