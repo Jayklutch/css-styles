@@ -20,13 +20,13 @@ a:visited {color: #7ff5ff; font-weight: bolder; text-decoration: line-through;}
 			margin-top: 5px;
 			margin-bottom: 2px;
 			text-align: center;
-			padding-top: 15px;
+			padding: 10px;
 			}
 
 #mainindexlink {display: inline-block;
 				text-align: right;
 				margin-top: 10px;
-				margin-right: 75px;
+				margin-right: 85px;
 				float: right;
 				height: 30px;
 				width: 10%;
@@ -48,7 +48,7 @@ a:visited {color: #7ff5ff; font-weight: bolder; text-decoration: line-through;}
 						float: right;
 						margin-top:  95px;
 						margin-bottom: 5px;
-						margin-right: 50px;
+						margin-right: 75px;
 						height: 150px;
 						width: 10%;
 					}
