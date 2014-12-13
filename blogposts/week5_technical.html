@@ -1,0 +1,98 @@
+<!Doctype html>
+	<html>
+		<head>
+			<title>Week 5 Technical AAAVPM</title>
+			
+			<link type="text/css" rel="stylesheet" href="http://philldellow.github.io/stylesheets/blog-template-stylesheet.css" />
+
+		</head>
+		
+
+		<body>
+			<div id="fb-root"></div>
+			<script>(function(d, s, id) {
+  					var js, fjs = d.getElementsByTagName(s)[0];
+  					if (d.getElementById(id)) return;
+  					js = d.createElement(s); js.id = id;
+  					js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.0";
+ 					fjs.parentNode.insertBefore(js, fjs);
+					}(document, 'script', 'facebook-jssdk'));</script>
+		
+			<div class="header"><p>The Phill Dellow Experience</p></div>
+		
+			<div class="content"><p>
+				<h3>The Ancient and Accepted Art of Virtual Pizza Making</h3>
+				<h4><i>or how I tried to stop the struggle for sanity and dive into the number storm</i></h4>
+				<p>OK, sorry to say this right out the front like this, but this blog entry is for me this week. I figure if I can express my learning of something as unfamilar feeling as C# still is, to me, in something I am very familar with, (PIZZA), I will be ahead for the week. So, in an attempt to make sense to myself, I am ardently sorry if I loose you on the way.</p>
+				<p>When we are making the pizza, the first thing we are thinking about is the equipment and resources we have to make that pizza. We are needing good brick wood fired ovens, though some people use gas fired modern conveyours and still get away with it. We want to be thinking about our reptior of skills as represented by our cooks and finally we want to think about and hold in mind what our library of ingredients is.</p>
+				<p>It C# it is the sane as is represented by the first lin(s) of code you will see in the program:</p>
+				<p class="code"> using System /b using System.Collections</p>
+				<p>is just the same as waking the cook, turning the oven up to 220 and unlocking the fridge, i.e:</p>
+				<p class="code"><i>using chefskills /b using woodfiredbrick oven</i>
+				<p>Next, it's the namespace:</p>
+				<p class="code"> namespace letsgeourpizzaon</p>
+				<p>namespace is really a declaration as to what you are tring to acheieve, and could be easily thought of in this metaphore as the stores BRAND. It could be Pizza Hut, Dominos or on the other hand it could be a backyard artisan authentic - It's really up to you how you want to name what itis that your trying to acheive and that's what a namespace is for </p>
+				<p class ="code">namespace callitdescriptor</p>
+				<p>Now were on to the interestingly highlighted topic from this last weeks study, class. Class can be defined as a collection of related objects: methods, variables etc. which then are "instance variable and instance methods - Wikipedia has a good summary of these:</p>
+				<div><img src="http://www.philldellow.github.io/blog/pics/InstanceVariable.png" href="http://en.wikipedia.org/wiki/Instance_variable"/></div>
+				<p>So an instance variable like a instance method is as it's described, an instance of that classes object(s) and is never a part of a static class, that being the obvious opposite to instance. Instance can change, static cannot, in a very broad brushstroke way of speaking.</p>
+				<h3>Here's what it looks like in my pizza model</h3>
+				<p><i>First the static Main Class</i></p>
+				<p class="code">Public<i>(ly Accepted)</i> Static Main((Approach to creating)Pizza)<p>
+				<p>///This class and it's objects are all about the way in which a pizza is made, the fundamentals that dont change: Dough, sauce, cheese and topping. And so we may have a method that says</p>
+				<p class="code">{</p>
+				<p class="code">	PizzaProduction(want) </p> 
+				<p class="code">	{</p>
+				<p class="code">		Dough</p>
+				<p class="code">			{</p> 
+				<p class="code">				if(Size=BigPizza) dough=0.5;</p>
+				<p class="code">  				else if(Size=MedPizza) dough=0.4;</p>
+				<p class="code">  				else if(Size=MedPizza) dough=0.4;</p>
+				<p class="code">  				else throw Argument.Exception "Nah, we is making the pizza, not the funny-time.";</p>
+				<p class="code">			}</p>
+				<p class="code">		void Sauce();</p>
+				<p class="code">	}
+				<p class="code"></p>
+				<p class="code">	PizzaConstructor</p>
+				<p class="code">			{</p>
+				<p class="code">				Pizza = (dough + sauce);</p>
+				<p class="code">				Pizza.Add Toppings;
+				<p class="code">			}</p>
+				<p class="code">
+				<p> These would all be examples of STATIC CLASS (METHOD.VARIABLES) OBJECTS - i reckon, therefor not instance variables as I'm trying to percieve them, but rather instances of static class variables, but I may be digging a hole there and and they are indeed examples of instance variable simply becasue they are an instance of a varible.</p>
+				<p>Holes, non-withstanding and under the sheer will of imagined confidence with pogo sticks, let's segway over to what would be condisered an instance variable in the true sense. Let's say our virtual pizza maker now moved into making different types of Pizza, that even in the world of virtual, that one standard construction class and method didn't encompass the needs of the wanters. For this we will need to maybe have another class, maybe a class for each different type of pizza the wanters want:</p>
+				<p class="code">Public class Toppings //This is going to be aclass containing all the different toppings</p>
+				<p class="code">Public String[] Tuscana = new String[] Tuscana = ("Potatoes"+"Procuito"+"Porcini"+"Pecarino");</p>
+				<p class="code">Public String[] Margarita = new String[] Margarita = ("Pomodori"+"Mozzerella");</p>
+				<p class="code">Public String[] Americano = new String[] Americano = ("this"+"that"+"more"+"too much"+"blurr"+"lost"+"abborance"+"floor sweepings");</p>
+				<p class="code">{ if (topping=Tuscana) pizza.Add(Tuscana) };</p>
+				<p class="code">{ if (topping=Margarita) pizza.Add(Margarita) };</p>
+				<p class="code">{ if (topping=Americano) pizza.Halt.PizzaProduction goto packasad};</p>
+				<p class="code"></p>
+				<p class="code"></p>
+				<p>Although this may not represent the true C# code, but rather a psedo bash, I think I have managed to, (in my mind at least), construct a class herewith named Toppings, that sits outside and along side of the main class and therefor is not bound by that main classes "static' designation. This then uses truely instance variables and instance methods which can be called during the main class' methods in various instances.</p>
+			</p></div>
+
+			<div id="indexpane">
+
+			<h3><a href="http://philldellow.github.io/blog/blog-index.html">Blog Index</h3>
+			<p> </p>
+			<p>	<a href="http://philldellow.github.io/blogposts/c1-chefs-kitchen01.html">Culture Blog Week 1</a></p>
+			<p>	<a href="http://philldellow.github.io/blogposts/c3-thinking-style.html">Culture Blog Week 3</a></p>
+			<p>	<a href="http://philldellow.github.io/blogposts/week4_cultural_blog.html">Culture Blog Week 4</a></p>
+			<p>	<a href="http://philldellow.github.io/blogposts/t1-git-blog01.html">Technical Week 1</a></p>
+			<p> <a href="http://philldellow.github.io/blogposts/t2-css-design.html">Technical Week 2</a></p>
+			<p> <a href="http://philldellow.github.io/blogposts/t3-arrays-hashes.html">Technical Week 3</a></p>
+			<p> <a href="http://philldellow.github.io/blogposts/week4_technical.html">Technical Week 4</a></p>
+			<p> <a href="http://philldellow.github.io/blogposts/week5_technical.html">Technical Week 5</a></p>
+			<p> <a href="http://philldellow.github.io/pairing/gps1-2.html"/>Phill and Nary pair a web page in an hour</a></p>
+			<a href="https://twitter.com/PhillipDellow" class="twitter-follow-button" data-show-count="false">Follow @PhillipDellow</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+			<p><div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div></p></div>
+
+			<div class="bottom"><p><a id="mainindexlink" href="http://philldellow.github.io/">Main Index</a></p></div>
+
+
+		</body>
+	</html>
