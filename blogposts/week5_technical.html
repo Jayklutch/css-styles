@@ -60,15 +60,15 @@
 							}<br></p>
 				<p> These would all be examples of STATIC CLASS (METHOD.VARIABLES) OBJECTS - i reckon, therefor not instance variables as I'm trying to percieve them, but rather instances of static class variables, but I may be digging a hole there and and they are indeed examples of instance variable simply becasue they are an instance of a varible.</p>
 				<p>Holes, non-withstanding and under the sheer will of imagined confidence with pogo sticks, let's segway over to what would be condisered an instance variable in the true sense. Let's say our virtual pizza maker now moved into making different types of Pizza, that even in the world of virtual, that one standard construction class and method didn't encompass the needs of the wanters. For this we will need to maybe have another class, maybe a class for each different type of pizza the wanters want:</p>
-				<p class="code">Public class Toppings //This is going to be aclass containing all the different toppings</p>
-				<p class="code">Public String[] Tuscana = new String[] Tuscana = ("Potatoes"+"Procuito"+"Porcini"+"Pecarino");</p>
-				<p class="code">Public String[] Margarita = new String[] Margarita = ("Pomodori"+"Mozzerella");</p>
-				<p class="code">Public String[] Americano = new String[] Americano = ("this"+"that"+"more"+"too much"+"blurr"+"lost"+"abborance"+"floor sweepings");</p>
-				<p class="code">{ if (topping=Tuscana) pizza.Add(Tuscana) };</p>
-				<p class="code">{ if (topping=Margarita) pizza.Add(Margarita) };</p>
-				<p class="code">{ if (topping=Americano) pizza.Halt.PizzaProduction goto packasad};</p>
-				<p class="code"></p>
-				<p class="code"></p>
+				<p class="code">Public class Toppings //This is going to be aclass containing all the different toppings<br>
+				Public String[] Tuscana = new String[] Tuscana = ("Potatoes"+"Procuito"+"Porcini"+"Pecarino");<br>
+				Public String[] Margarita = new String[] Margarita = ("Pomodori"+"Mozzerella");<br>
+				Public String[] Americano = new String[] Americano = ("this"+"that"+"more"+"too much"+"blurr"+"lost"+"abborance"+"floor sweepings");<br>
+				{ if (topping=Tuscana) pizza.Add(Tuscana) };<br>
+				{ if (topping=Margarita) pizza.Add(Margarita) };<br>
+				{ if (topping=Americano) pizza.Halt.PizzaProduction goto packasad};<br>
+				<br>
+				<br></p>
 				<p>Although this may not represent the true C# code, but rather a psedo bash, I think I have managed to, (in my mind at least), construct a class herewith named Toppings, that sits outside and along side of the main class and therefor is not bound by that main classes "static' designation. This then uses truely instance variables and instance methods which can be called during the main class' methods in various instances.</p>
 
 			</p></div>
