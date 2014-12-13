@@ -40,25 +40,24 @@
 				<p><i>First the static Main Class</i></p>
 				<p class="code">Public<i>(ly Accepted)</i> Static Main((Approach to creating)Pizza)<p>
 				<p>///This class and it's objects are all about the way in which a pizza is made, the fundamentals that dont change: Dough, sauce, cheese and topping. And so we may have a method that says</p>
-				<p class="code">{</p>
-				<p class="code">	PizzaProduction(want) </p> 
-				<p class="code">	{</p>
-				<p class="code">		Dough</p>
-				<p class="code">			{</p> 
-				<p class="code">				if(Size=BigPizza) dough=0.5;</p>
-				<p class="code">  				else if(Size=MedPizza) dough=0.4;</p>
-				<p class="code">  				else if(Size=MedPizza) dough=0.4;</p>
-				<p class="code">  				else throw Argument.Exception "Nah, we is making the pizza, not the funny-time.";</p>
-				<p class="code">			}</p>
-				<p class="code">		void Sauce();</p>
-				<p class="code">	}
-				<p class="code"></p>
-				<p class="code">	PizzaConstructor</p>
-				<p class="code">			{</p>
-				<p class="code">				Pizza = (dough + sauce);</p>
-				<p class="code">				Pizza.Add Toppings;
-				<p class="code">			}</p>
-				<p class="code">
+				<p class="code">{<br>
+					PizzaProduction(want) <br> 
+					{<br>
+						Dough<br>
+							{<br> 
+								if(Size=BigPizza) dough=0.5;<br>
+				  				else if(Size=MedPizza) dough=0.4;<br>
+				  				else if(Size=MedPizza) dough=0.4;<br>
+				  				else throw Argument.Exception "Nah, we is making the pizza, not the funny-time.";<br>
+							}<br>
+						void Sauce();<br>
+					}
+				<br>
+					PizzaConstructor<br>
+							{<br>
+								Pizza = (dough + sauce);<br>
+								Pizza.Add Toppings;
+							}<br></p>
 				<p> These would all be examples of STATIC CLASS (METHOD.VARIABLES) OBJECTS - i reckon, therefor not instance variables as I'm trying to percieve them, but rather instances of static class variables, but I may be digging a hole there and and they are indeed examples of instance variable simply becasue they are an instance of a varible.</p>
 				<p>Holes, non-withstanding and under the sheer will of imagined confidence with pogo sticks, let's segway over to what would be condisered an instance variable in the true sense. Let's say our virtual pizza maker now moved into making different types of Pizza, that even in the world of virtual, that one standard construction class and method didn't encompass the needs of the wanters. For this we will need to maybe have another class, maybe a class for each different type of pizza the wanters want:</p>
 				<p class="code">Public class Toppings //This is going to be aclass containing all the different toppings</p>
