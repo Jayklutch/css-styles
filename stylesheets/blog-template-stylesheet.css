@@ -61,5 +61,10 @@ a:visited {color: #7ff5ff; font-weight: bolder; text-decoration: line-through;}
 		color:#0e1b1c;
 }
 
+.conatinedimage {
+	padding: 5px;
+	margin-top: 0px, auto;
+}
+
 .meow {font-style: italic; 
 		text-decoration: blink;}
