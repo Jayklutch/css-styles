@@ -67,5 +67,5 @@ a:visited {color: #7ff5ff; font-weight: bolder; text-decoration: line-through;}
 	width:1040px;
 }
 
-.meow {font-style: italic; 
+.meow:hover {font-style: italic; 
 		text-decoration: blink;}
