@@ -45,7 +45,7 @@ a:visited {color: #73dde5;}
 		padding-top: 40px;
 		border: 3px solid #7ff5ff;
 		background-color: #0e1b1c;
-		opacity: 0.4;
+		
 
 }
 
@@ -57,8 +57,7 @@ a:visited {color: #73dde5;}
 		padding-top: 40px;
 		border: 3px solid #7ff5ff;
 		background-color: #0e1b1c;
-		opacity: 0.4;
-}
+		}
 
 
 .link3{	display: inline-block;
@@ -69,8 +68,7 @@ a:visited {color: #73dde5;}
 		padding-top: 40px;
 		border: 3px solid #7ff5ff;
 		background-color: #0e1b1c;
-		opacity: 0.4;
-}
+		}
 
 
 .link4{	display: inline-block;
@@ -81,7 +79,7 @@ a:visited {color: #73dde5;}
 		padding-top: 40px;
 		border: 3px solid #7ff5ff;
 		background-color: #0e1b1c;
-		opacity: 0.4;
+
 		
 }
 
@@ -94,7 +92,6 @@ a:visited {color: #73dde5;}
 		padding-top: 40px;
 		border: 3px solid #7ff5ff;
 		background-color: #0e1b1c;
-		opacity: 0.4;
 }
 
 
