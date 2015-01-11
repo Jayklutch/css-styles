@@ -144,7 +144,7 @@ background: linear-gradient(120deg, rgb(127, 245, 255) 30%, rgb(90, 140, 250) 72
 			clear: right;
 			margin-top: 25px;
 		}
-		
+
 .button{
 		clear: left;
 		clear:right;
@@ -169,4 +169,16 @@ background: linear-gradient(120deg, rgb(127, 245, 255) 30%, rgb(90, 140, 250) 72
 
 #explain_button{
 	margin: 50px;
+}
+
+#indexpane {
+	width: 14%;
+	border: 3px solid #7ff5ff;
+	margin-left: 10px;
+	margin-right: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: left;
+	text-align: center;
+	padding: 10px
 }
