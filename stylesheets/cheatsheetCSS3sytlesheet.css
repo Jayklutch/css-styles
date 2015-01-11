@@ -46,7 +46,7 @@ a:visited {	color: #7ff5ff;
 #divone{	color: #000000;
 			height: 100px;
 			width: 100px;
-			margin-left: 50;
+			margin-left: 50px;
 			background-color: #E6FFC3;
 			-moz-border-radius-topleft: 90px;
 			-webkit-border-top-left-radius: 90px;
@@ -65,7 +65,7 @@ a:visited {	color: #7ff5ff;
 #divtwo{	color: #000000;
 			height: 100px;
 			width: 100px;
-			margin-left: 150;
+			margin-left: 150px;
 			background-color: #E6FFC3;
 			-moz-border-radius-topleft: 5px;
 			-webkit-border-top-left-radius: 5px;
@@ -84,7 +84,7 @@ a:visited {	color: #7ff5ff;
 #divthree{	color: #000000;
 			height: 100px;
 			width: 100px;
-			margin-left: 250;
+			margin-left: 250px;
 			background-color: #E6FFC3;
 			-moz-border-radius-topleft: 5px;
 			-webkit-border-top-left-radius: 5px;
@@ -103,7 +103,7 @@ a:visited {	color: #7ff5ff;
 #divfour{	color: #000000;
 			height: 100px;
 			width: 100px;
-			margin-left: 350;
+			margin-left: 350px;
 			background-color: #E6FFC3;
 			-moz-border-radius-topleft: 5px;
 			-webkit-border-top-left-radius: 5px;
@@ -121,33 +121,35 @@ a:visited {	color: #7ff5ff;
 
 #black{color: #000000;}
 
-#divfive{height: 500px;
-	width: 50%;
-	color: black;
-	border-right: 100px solid black;
-	border-bottom: 50px solid black;
-	border-left: 25px solid black;
-	border-top: 12px solid black;
-	float: right;
-	float:left;
-	margin-left: auto;
-	margin-right: auto;
-	background: rgb(127, 245, 255);
-background: -moz-linear-gradient(30deg, rgb(127, 245, 255) 30%, rgb(90, 140, 250) 72%);
-background: -webkit-linear-gradient(30deg, rgb(127, 245, 255) 30%, rgb(90, 140, 250) 72%);
-background: -o-linear-gradient(30deg, rgb(127, 245, 255) 30%, rgb(90, 140, 250) 72%);
-background: -ms-linear-gradient(30deg, rgb(127, 245, 255) 30%, rgb(90, 140, 250) 72%);
-background: linear-gradient(120deg, rgb(127, 245, 255) 30%, rgb(90, 140, 250) 72%);
-}
+#divfive{	height: 500px;
+			width: 50%;
+			color: black;
+			border-right: 100px solid black;
+			border-bottom: 50px solid black;
+			border-left: 25px solid black;
+			border-top: 12px solid black;
+			float: right;
+			float:left;
+			margin-left: auto;
+			margin-right: auto;
+			background: rgb(127, 245, 255);
+			background: -moz-linear-gradient(30deg, rgb(127, 245, 255) 30%, rgb(90, 140, 250) 72%);
+			background: -webkit-linear-gradient(30deg, rgb(127, 245, 255) 30%, rgb(90, 140, 250) 72%);
+			background: -o-linear-gradient(30deg, rgb(127, 245, 255) 30%, rgb(90, 140, 250) 72%);
+			background: -ms-linear-gradient(30deg, rgb(127, 245, 255) 30%, rgb(90, 140, 250) 72%);
+			background: linear-gradient(120deg, rgb(127, 245, 255) 30%, rgb(90, 140, 250) 72%);
+		}
 
 #button{ 	clear: left;
-			clear: right;
-			margin-top: 25px;
+			
+			margin-top: 100px;
+			margin-left: auto;
+			margin-right: auto;
+			display: inline-block;
 		}
 
 .button{
 		clear: left;
-		clear:right;
 		margin: 100px;
 		color: rgb(155, 241, 255);
 		font-size: 20px;
@@ -169,6 +171,7 @@ background: linear-gradient(120deg, rgb(127, 245, 255) 30%, rgb(90, 140, 250) 72
 
 #explain_button{
 	margin: 50px;
+	clear: left;
 }
 
 #indexpane {
