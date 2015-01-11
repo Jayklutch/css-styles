@@ -15,7 +15,7 @@ a:hover {color: #7ff5ff; text-decoration: underline; font-style: italic;}
 a:visited {color: #7ff5ff; font-weight: bolder; text-decoration: line-through;}
 
 .header { height: 60px;
-	width: 100%;
+	width: 90%;
 	border: 3px solid #7ff5ff;
 	margin-left: auto;
 	margin-right: auto;
