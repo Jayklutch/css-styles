@@ -4,6 +4,7 @@
 			<title>blog-template </title>
 			
 			<link type="text/css" rel="stylesheet" href="http://philldellow.github.io/stylesheets/blog-template-stylesheet.css" />
+			<link rel="import" href="http://philldellow.github.io/Resume-1.html">
 
 		</head>
 		
@@ -22,6 +23,12 @@
 		
 			<div class="content">
 				<iframe src="http://philldellow.github.io/Resume-1.html"></iframe>
+				<script>
+					var doc = document.querySelector('link[rel="import"]').import;
+					// Grab DOM from doc.html's document.
+					var text = doc.querySelector('.odt');
+					document.body.appendChild(text.cloneNode(true));
+				</script>
 				<img src="http://philldellow.github.io/Blog/pics/PhillMugshot.jpg"/></img>
 				
 			</div>
