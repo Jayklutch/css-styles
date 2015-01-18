@@ -109,13 +109,11 @@ a:visited {color: #73dde5;}
 			
 
 }
-.bottom {
-	clear: both;
-	width: 90%;
-	border: 3px solid #7ff5ff;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
+
+.share-buttons{
+	list-style: none;
+}
+
+.share-buttons li{
+	display: inline;
 }
