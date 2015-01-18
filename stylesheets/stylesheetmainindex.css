@@ -98,8 +98,8 @@ a:visited {color: #73dde5;}
 }
 .link5:hover{opacity: 1}
 
-.footer{	display: inline-block; 
-			text-align: center; 
+footer{	display: inline-block; 
+			
 			width: 90%;
 			margin-left: 60px;
 			margin-right: auto;
@@ -108,4 +108,14 @@ a:visited {color: #73dde5;}
 			border: 3px solid #7ff5ff;
 			
 
+}
+.bottom {
+	clear: both;
+	width: 90%;
+	border: 3px solid #7ff5ff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
