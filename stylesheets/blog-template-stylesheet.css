@@ -86,3 +86,10 @@ a:visited {color: #7ff5ff; font-weight: bolder; text-decoration: line-through;}
 #Mugshotoftheauthor:hover {opacity: 1.0;
 							border: 3px solid #7ff5ff;
 							}
+.share-buttons{
+	list-style: none;
+}
+
+.share-buttons li{
+	display: inline;
+}
