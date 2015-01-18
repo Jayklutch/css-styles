@@ -29,6 +29,26 @@ a {color: #7ff5ff; text-decoration: none; font-size: 18px;}
 					margin-left: auto;
 					margin-right: auto;}
 
+#mainheading3:hover {
+
+					-webkit-animation: myfirst 5s; /* Chrome, Safari, Opera */
+    				animation: myfirst 5s;
+					}/* Chrome, Safari, Opera */
+						@-webkit-keyframes myfirst {
+						    0%   {background: red;}
+						    25%  {background: yellow;}
+						    50%  {background: blue;}
+						    100% {background: green;}
+						}
+
+						/* Standard syntax */
+						@keyframes myfirst {
+						    0%   {background: red;}
+						    25%  {background: yellow;}
+						    50%  {background: blue;}
+						    100% {background: green;}
+						}
+
 a:visited {	color: #7ff5ff; 
 			font-weight: bolder; 
 			text-decoration: line-through;
